@@ -1,0 +1,76 @@
+@CHARSET "gb2312";
+body{
+	font:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	background: url("images/bkgnd.gif") fixed repeat-x;
+	font-size:13px;
+	text-align:center;
+}
+#mainContent{
+	width: 960px;
+	padding: 20px;
+	text-align:left;
+}
+textarea{
+	background: #fff;
+	border: solid 1px #ccc;
+}
+select{
+	background: #fff;
+	border: solid 1px #ccc;
+}
+input[type=text]{
+	background: #fff;
+	border: solid 1px #ccc;
+} 
+input[type=file]{
+	background: #fff;
+	border: solid 1px #ccc;
+} 
+textarea.once{
+	font:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	width: 850px;
+	height: 100px;
+}
+textarea.many{
+	font:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	width: 850px;
+	height: 50px;
+}
+.sendPanel{
+	width: 920px;
+	padding-left: 120px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	margin: 0px;
+}
+.oncePanel{
+	height: 220px;
+}
+.oneline{
+	width: 920px;
+	height: 20px;
+	padding-left: 120px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	margin: 0px;
+}
+#imgview ul{
+	display:inline;
+	margin-top: 0px;
+}
+#imgview li{
+	display:inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.panel{
+	padding-left: 120px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
